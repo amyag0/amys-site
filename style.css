@@ -20,11 +20,6 @@
     padding:15px;
     text-align: center;
 }
- 
-.intro{
-    display:none;
-}
-
 
 .section {
     border: 3px solid #306e4a;
@@ -59,4 +54,14 @@
     border: 1px solid orange;
     padding: 5px;
 
+}
+
+#beforeChair {
+    width: 150px;
+    height: 300px;
+}
+
+#afterChair {
+    width: 150px;
+    height: 300px;
 }
