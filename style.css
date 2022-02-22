@@ -6,7 +6,7 @@
 #header{
     margin: 0;
     background-color: orange;
-    border: 1px solid yellow;
+    border: 1px solid #c7d868;
     padding: 30px;
     text-align:center;
 }
@@ -15,8 +15,8 @@
     margin-left:auto;
     margin-right:auto;
     width: 500px;
-    background-color:yellow;
-    border: 2px solid black;
+    background-color: #c7d868;
+    border: 2px solid orange;
     padding:15px;
     text-align: center;
 }
@@ -45,7 +45,8 @@
 }
 
 #footer{
-    background-color:orange;
+    background-color: #c7d868;
+    font-size: 35px;
 }
 
 #closing{
@@ -53,15 +54,95 @@
     margin: 0px;
     border: 1px solid orange;
     padding: 5px;
+    text-align: center;
+    font-size: small;
+    font-style: italic;
+}
+
+#reup{
+    float: right;
+}
+
+#finish{
+    float: left;
+}
+
+#build{
+    float: right;
+}
+
+#glass{
+    float: left;
+}
+
+table{
+    line-height: 15px;
+    float: center;
+}
+
+h1{
+    font-size:45px;
+    color: #c7d868;
+}
+
+h2{
+    color:orange;
+    font-style: italic;
+    font-size:35px;
+    margin-top: 0px;
+}
+
+p{
+    font-size: 17px;
+    color: #235337;
+}
+
+span{
+    color: #235337;
+}
+
+#section-1{
+    color: #235337;
+}
+
+#section-2{
+    color: #235337;
+}
+
+#section-3{  
+    color: #235337;
+}
+
+#section-4{    
+    color: #235337;
+    line-height: 35px;
+}
+
+#section-5{   
+    color: #235337;
+}
+
+#footer{  
+    color: #235337;
 
 }
 
-#beforeChair {
-    width: 150px;
-    height: 300px;
+#closing{
+    color: #306e4a;
 }
 
-#afterChair {
-    width: 150px;
-    height: 300px;
+#comments{
+    float:center;
+    width: 475px;
+    height: 75px;
+    font-size: 20px;
+    background-color: #c7d868;
+    color:#306e4a;
+}
+
+#office{
+    width:350px;
+    margin-left:auto;
+    margin-right:auto;
+    float :none;
 }
